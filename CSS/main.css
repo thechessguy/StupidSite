@@ -3,11 +3,25 @@ body {
 }
 
 h1 {
-	text-align: center;
-	vertical-align: top;
+    text-align: center;
+    margin-top: 0px;
 }
 
-.logotype {
+.logo {
+    position: absolute;
 	width: 70px;
 	height: 70px;
+    float: left;
+}
+
+.hat {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+
+.menu {
+    text-align: left;
 }
